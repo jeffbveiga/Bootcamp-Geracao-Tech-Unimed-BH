@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .container{
+            display: flex;
+            border: 1px solid black;
+            width: 400px;
+            flex-direction: column;
+        }
+
+        .item{
+            background-color: royalblue;
+            color: white;
+            text-align: center;
+            margin: 5px;
+            flex: 1;
+        }
+
+        .o1{
+            order: 1;
+        }
+
+        .o2{
+            order: 2;
+        }
+
+        .o3{
+            order: 3;
+        }
+    </style>
+    <title>Order</title>
+</head>
+<body>
+<h1>Trabalhando com order</h1>
+<div class="container">
+    <div class="item o3">A</div>
+    <div class="item o3">B</div>
+    <div class="item o1">C</div>
+    <div class="item o1">D</div>
+    <div class="item o2">E</div>
+</div> 
+</body>
+</html>
