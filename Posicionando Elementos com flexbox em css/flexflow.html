@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .container{
+            display: flex;
+            border: 4px solid black;
+            max-width: 500px;
+            margin: 5px;
+        }
+
+        .itens{
+            background-color: cadetblue;
+            margin: 5px;
+            color: black;
+            width: 100px;
+            height: 50px;
+            text-align: center;
+            line-height: 50px;
+            border: 2px solid black;
+        }
+
+        .row-nowrap{
+            flex-flow: row nowrap;
+        }
+
+        .row-reverse-nowrap{
+            flex-flow: row-reverse nowrap;
+        }
+
+        .row-wrap{
+            flex-flow: row wrap;
+        }
+
+        .row-reverse-wrap{
+            flex-flow: row-reverse wrap;
+        }
+
+        .row-reverse-wrap-reverse{
+            flex-flow: row-reverse wrap-reverse;
+        }
+
+    </style>
+    <title>Flex-flow</title>
+</head>
+<body>
+    <h1>Flex-flow : row e nowrap</h1>
+    <div class="container row-nowrap">
+        <div class="itens">1</div>
+        <div class="itens">2</div>
+        <div class="itens">3</div>
+        <div class="itens">4</div>
+        <div class="itens">5</div>
+    </div>
+
+    <h1>Flex-flow : row-reverse e nowrap</h1>
+
+    <div class="container row-reverse-nowrap">
+        <div class="itens">1</div>
+        <div class="itens">2</div>
+        <div class="itens">3</div>
+        <div class="itens">4</div>
+        <div class="itens">5</div>
+    </div>
+
+    <h1>Flex-flow : row e wrap</h1>
+
+    <div class="container row-wrap">
+        <div class="itens">1</div>
+        <div class="itens">2</div>
+        <div class="itens">3</div>
+        <div class="itens">4</div>
+        <div class="itens">5</div>
+    </div>
+    <h1>Flex-flow :row-reverse e wrap</h1>
+
+    <div class="container row-reverse-wrap">
+        <div class="itens">1</div>
+        <div class="itens">2</div>
+        <div class="itens">3</div>
+        <div class="itens">4</div>
+        <div class="itens">5</div>
+    </div>
+
+    <h1>Flex-flow: row-reverse e wrap-reverse</h1>
+
+    <div class="container row-reverse-wrap-reverse">
+        <div class="itens">1</div>
+        <div class="itens">2</div>
+        <div class="itens">3</div>
+        <div class="itens">4</div>
+        <div class="itens">5</div>
+    </div>
+    
+</body>
+</html>
